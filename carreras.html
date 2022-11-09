@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imagenes/color.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/miestilo.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <title>Oferta educativa</title>
+</head>
+
+<body>
+  <!--barra  -->
+  <div class="container-fluid  sticky-top " style="background-color: #194A8D;">
+    <nav class="navbar navbar-expand-md navbar-dark navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bolder" href="index.html">TecNM Campus Montaña Extensión Iliatenco</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto text-center fw-bolder">
+            <li class="nav-item font-weigth-bold">
+              <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="conocenos.html">Conócenos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="carreras.html">Carreras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="fichas.html">Fichas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="beneficios.html">Beneficios</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Ayuda
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#modal2"
+                    href="staticBackdrop">ACCESOS DIRECTOS</a></li>
+                <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                    href="staticBackdrop">SOPORTE</a></li>
+              </ul>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--fin barra -->
+  <!-- inicia modal utilerias-->
+  <!-- Modal -->
+  <div class="modal fade " id="modal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: #194A8D;">
+          <h5 class="modal-title text-white text-center" id="staticBackdropLabel">UTILERÍAS</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- card 1 -->
+          <h5 class="text-center">Accesos directos</h5>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="imagenes/sii.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body bg-light">
+                  <a href="https://siitsm.app/" class="text-decoration-none text-dark" target="_blank"
+                    rel="noopener noreferrer">
+                    SISTEMA INTEGRAL DE INFORMACIÓN
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fin card 1 -->
+          <!-- inicia card 2 -->
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="imagenes/moodle.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body bg-light">
+                  <a href="https://moodle.itsm-tlapa.edu.mx/" class="text-decoration-none text-dark" target="_blank"
+                    rel="noopener noreferrer">
+                    PLATAFORMA DE EDUCACIÓN EN LÍNEA
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fin card 2 -->
+          <!-- inicia card 3 -->
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="imagenes/elibro.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body bg-light">
+                  <a href="https://elibro.net/es/lc/itsmtlapa/login_usuario/?next=/es/lc/itsmtlapa/inicio"
+                    class="text-decoration-none text-dark" target="_blank" rel="noopener noreferrer">
+                    BIBLIOTECA VIRTUAL
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fin card 3 -->
+          <!-- inicia card 4 -->
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="imagenes/med.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body bg-light">
+                  <a href="http://www.itsm-tlapa.edu.mx/master/images/documentos/GUIA_EVALUACIN_DOCENTE_NOV_2020.pdf"
+                    class="text-decoration-none text-dark" target="_blank" rel="noopener noreferrer">
+                    MANUAL DE EVALUACIÓN DOCENTE
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fin card 4 -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- fin modal utilerias-->
+  <!-- inicia modal soporte -->
+  <!-- Modal -->
+  <div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: #194A8D;">
+          <h5 class="modal-title text-white text-center" id="staticBackdropLabel">SOPORTE TÉCNICO</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- card 1 -->
+          <h5 class="text-center">Aplicación web V 1.0</h5>
+
+          <div class="card mb-3 " style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="imagenes/miguel.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body bg-light">
+
+                  <h5 class="card-title">MAQUETACIÓN Y DISEÑO</h5>
+                  <p class="card-text">ING. MIGUEL ÁNGEL CRUZ GUZMÁN</p>
+                  <P class="card-text">CÉDULA PROFESIONAL: 9653412</P>
+                  <p class="card-text"><i class="fa fa-envelope"></i><small class="text-muted">
+                      miguel_cruz@itsm-tlapa.edu.mx</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fin card 1 -->
+          <!-- inicia card 2 -->
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="imagenes/judith.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body bg-light">
+                  <h5 class="card-title">REDACCIÓN Y COLABORACIÓN</h5>
+                  <p class="card-text">JUDITH VALDEZ MARTINEZ</p>
+                  <P class="card-text">MATRICULA:S17122015</P>
+                  <p class="card-text"><i class="fa fa-envelope"></i><small class="text-muted">
+                      s17122015@itsm-tlapa.edu.mx</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fin card 2 -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- fin modal -->
+  <!-- fin modal soporte -->
+
+  <!-- INICIA TAB -->
+  <div class="container mt-4">
+    <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <button class="nav-link active text-dark fw-bolder" id="nav-home-tab" data-bs-toggle="tab"
+          data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+          aria-selected="true">ISIC</button>
+        <button class="nav-link text-dark fw-bolder" id="nav-profile-tab" data-bs-toggle="tab"
+          data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+          aria-selected="false">IAMB</button>
+        <button class="nav-link text-dark fw-bolder" id="nav-profile-servicio" data-bs-toggle="tab"
+          data-bs-target="#nav-servicio" type="button" role="tab" aria-controls="nav-profile"
+          aria-selected="false">SERVICIO SOCIAL</button>
+        <button class="nav-link text-dark fw-bolder" id="nav-profile-residencia" data-bs-toggle="tab"
+          data-bs-target="#nav-residencia" type="button" role="tab" aria-controls="nav-profile"
+          aria-selected="false">RESIDENCIA PROFESIONAL</button>
+        <button class="nav-link text-dark fw-bolder" id="nav-profile-titulacion" data-bs-toggle="tab"
+          data-bs-target="#nav-titulacion" type="button" role="tab" aria-controls="nav-profile"
+          aria-selected="false">TITULACIÓN</button>
+      </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane  show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <h6 class="mt-5">OBJETIVO GENERAL</h6>
+        <P class="text-justify">
+          Formar profesionistas líderes, analíticos, críticos y creativos, con visión
+          estratégica y amplio sentido ético, capaces de diseñar, implementar y administrar infraestructura
+          computacional para aportar soluciones innovadoras en beneficio de la sociedad, en un contexto global,
+          multidisciplinario y sustentable.
+        </P>
+        <h6>PERFIL DE EGRESO</h6>
+        <P class="text-justify">
+          Profesionista con capacidad de aportar soluciones computacionales en las empresas, al diseñar desarrollar e
+          implementar proyectos de software, aplicando las tecnologías actuales de información y de comunicaciones.
+        </P>
+        <h6>HABILIDADES Y CONOCIMIENTOS A ALCANZAR</h6>
+        <ul>
+          <li>Diseñar, configurar y administrar redes computacionales aplicando las normas y estándares vigentes.
+          </li>
+          <li>Desarrollar, implementar y administrar software de sistemas o de aplicación que cumpla con los
+            estándares de calidad con el fin de apoyar la productividad y competitividad de las organizaciones.
+          </li>
+          <li>Coordinar y participar en proyectos interdisciplinarios.</li>
+          <li>Diseñar e implementar interfaces hombre-máquina y máquina-máquina para la automatización de
+            sistemas.</li>
+          <li>Identificar y comprender las tecnologías de hardware para proponer, desarrollar y mantener
+            aplicaciones eficientes.</li>
+          <li>Diseñar, desarrollar y administrar bases de datos conforme a requerimientos definidos, normas
+            organizacionales de manejo y seguridad de la información, utilizando tecnologías emergentes.</li>
+          <li>Integrar soluciones computacionales con diferentes tecnologías, plataformas o dispositivos.</li>
+          <li>Desarrollar una visión empresarial para detectar áreas de oportunidad que le permitan emprender y
+            desarrollar proyectos aplicando las tecnologías de la información y comunicación.</li>
+          <li>Desempeñar sus actividades profesionales considerando los aspectos legales, éticos, sociales y de
+            desarrollo sustentable.</li>
+          <li>Poseer habilidades metodológicas de investigación que fortalezcan el desarrollo cultural, científico
+            y tecnológico en el ámbito de sistemas computacionales y disciplinas afines.</li>
+          <li>Seleccionar y aplicar herramientas matemáticas para el modelado, diseño y desarrollo de tecnología
+            computacional.</li>
+        </ul>
+      </div>
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <h6 class="mt-5">OBJETIVO GENERAL</h6>
+        <P>
+          Formar profesionistas líderes, analíticos, críticos y creativos, con visión
+          estratégica y amplio sentido ético, capaces de diseñar, implementar y administrar infraestructura
+          computacional para aportar soluciones innovadoras en beneficio de la sociedad, en un contexto global,
+          multidisciplinario y sustentable.
+        </P>
+        <h6>PERFIL DE EGRESO</h6>
+        <P>
+          Profesionista capaz de emplear y planear soluciones a problemas ambientales, asegurando la protección,
+          conservación y mejoramiento del ambiente bajo un marco legal, en busca del desarrollo sustentable en beneficio
+          de la vida del planeta.
+        </P>
+        <h6>HABILIDADES Y CONOCIMIENTOS A ALCANZAR</h6>
+        <ul>
+          <li>Vincular el valor de los recursos naturales para promover un uso sustentable de acuerdo a las necesidades
+            de la región, mediante instrumentos de concientización, sensibilización y comunicación.</li>
+          <li>Participar en el desarrollo y ejecución del protocolo de investigación básica o aplicada para la
+            resolución de problemas ambientales.</li>
+          <li>Elaborar, implementar y mantener sistemas de gestión ambiental. </li>
+          <li>Participar en la realización de auditorías ambientales en el sector público y privado.</li>
+          <li>Llevar a cabo diagnósticos y evaluaciones de impacto y riesgo ambiental sustentados en métodos y
+            procedimientos conforme a los criterios Nacionales e Internacionales. </li>
+          <li>Elaborar estudios de factibilidad económica y técnica de los procesos para la prevención y control
+            ambiental.</li>
+          <li>Proponer e innovar tecnologías para el manejo de los residuos.</li>
+          <li>Conocer y aplicar los criterios de ingeniería básica y aplicada, así como las ciencias biológicas para el
+            dimensionamiento, adecuación, operación, mantenimiento y desarrollo de tecnologías de tratamiento,
+            prevención, control y manejo de efluentes sólidos, líquidos y gaseosos contaminados.</li>
+          <li>Conocer y aplicar las TIC, así como sistemas computacionales o software en el área ambiental.</li>
+          <li>Ser analítico, ético, crítico y consiente de la importancia de su entorno para la vida y el respeto de la
+            misma, siendo promotor del desarrollo sostenible.</li>
+          <li>Ser capaz de formar recursos humanos, realizar actividades de docencia, investigación y capacitación.</li>
+          <li>Tener una actitud emprendedora y de liderazgo para interactuar con grupos multidisciplinarios e
+            interdisciplinarios en la búsqueda de soluciones a los problemas del deterioro del medio ambiente.</li>
+        </ul>
+      </div>
+
+      <div class="tab-pane fade" id="nav-servicio" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <h6 class="mt-5">SERVICIO SOCIAL</h6>
+        <p>
+          El servicio social es un instrumento que estimula la participación activa de los jóvenes estudiantes de
+          educación superior en la solución de problemas específicos de la sociedad en el medio de la aplicación de los
+          conocimientos adquiridos durante su formación académica. Permite el desarrollo de una conciencia social, que
+          se traduce en la aportación de un beneficio a la comunidad, ya sea económico, político, social o cultural y
+          una manera de retribuir en la parte que está invierte en su formación.
+
+          Este es un elemento que coadyuva a la formación integral a la promoción del desarrollo de la responsabilidad
+          de los estudiantes, a la vez que a su potencialidad se le atribuye el título profesional.
+        </p>
+        <h6>REQUISITOS</h6>
+        <ul>
+          <li>Haber cubierto el 70% de los créditos.</li>
+          <li>Asistir a la plática de inducción al servicio social y entregar la documentación solicitada.</li>
+          <li>Cubrir 500 horas para nivel profesional (10 horas créditos, 1 crédito equivalente a 50)</li>
+          <li>Realizar en Dependencias Públicas y Organismos Privados que cuenten con programas de asistencia social y
+            desarrollo comunitario contemplados en el Plan Nacional de Desarrollo vigente.</li>
+          <li>El período de realización es mínimo de 6 meses y máximo de 2 años.</li>
+          <li>Presentar informes bimestrales.</li>
+          <li>Y Reportes Finales para obtener la Constancia de Liberación. </li>
+        </ul>
+        <h6>Documentación original Requerida para trámite oficial:</h6>
+        <ul>
+          <li>Solicitud de inscripción al servicio social</li>
+          <li>Cárdex con el 70% de créditos aprobados y actividades extraescolares aprobadas.</li>
+          <li>Carta compromiso</li>
+          <li>Constancia de asistencia a la plática de inducción de servicio social.</li>
+        </ul>
+      </div>
+      <div class="tab-pane fade" id="nav-residencia" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <h6 class="mt-5">RESIDENCIA PROFESIONAL</h6>
+        <h6>¿Qué es Residencia Profesional?</h6>
+        <p>
+          Es una estrategia educativa de carácter curricular, que permite al estudiante emprender un proyecto
+          teórico-práctico, analítico, reflexivo, crítico y profesional; con el propósito de resolver un problema
+          específico de la realidad social y productiva, para fortalecer y aplicar sus competencias profesionales.
+          El proyecto de residencia profesional puede ser individual, grupal o interdisciplinaria; Los requisitos, las
+          condiciones y las características del proyecto de la empresa, organismo o dependencia. La Residencia
+          Profesional puede realizar a través de proyectos integradores, bajo el esquema de educación dual, entre otros.
+        </p>
+        <h6>¿Cómo se acredita la Residencia Profesional?</h6>
+        <p>Se acredita mediante la realización de proyectos internos o externos de carácter local, regional, nacional o
+          internacional, en cualquiera de los siguientes temas:</p>
+        <ul>
+          <li>Sectores sociales, producto de bienes y servicios</li>
+          <li>Innovación y Desarrollo Tecnológico</li>
+          <li> Investigación</li>
+          <li>Diseño y / o construcción de equipo</li>
+          <li> Evento Nacional de Innovación Tecnológica participantes en la etapa nacional</li>
+          <li>Veranos de investigación o de investigación</li>
+          <li>Proyectos propuestos para la academia que cuente con la autorización del Departamento Académico</li>
+          <li>Proyectos Integradores</li>
+          <li>Proyectos bajo el enfoque de la educación dual</li>
+        </ul>
+        <h6>¿Cuál es el valor curricular de la Residencia Profesional?</h6>
+        <p>El valor curricular es de 10 créditos, su duración es específica por un período de cuatro meses como mínimo y
+          seis meses como máximo tiempo, debiendo acumular 500 horas.</p>
+        <h6>¿Cuáles son los requisitos para cursar Residencia profesional?</h6>
+        <ul>
+          <li>Acreditación del servicio social</li>
+          <li>Acreditación de todas las actividades complementarias</li>
+          <li>Tener aprobado al menos el 80% de los créditos de su plan de estudios</li>
+          <li>No contar con ninguna asignatura en condiciones de "curso especial"</li>
+        </ul>
+      </div>
+      <div class="tab-pane fade" id="nav-titulacion" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <h6 class="mt-5">TITULACIÓN</h6>
+        <h6>¿Qué es el título profesional?</h6>
+        <p>
+          Es el documento legal expedido por instituciones del estado, descentralizadas o particulares que tengan
+          reconocimiento de validez oficial de estudios, a favor de la persona que haya concluido los requisitos
+          académicos correspondientes o demostrado tener los conocimientos necesarios de conformidad con la Ley General
+          de Profesiones y otras disposiciones aplicables.
+        </p>
+        <h6>¿Qué es la titulación integral?</h6>
+        <p>Es la validación de las competencias (conocimientos, habilidades y actitudes) que el estudiante adquirió y
+          desarrolló durante su formación profesional.</p>
+        <h6>¿Cuáles son los tipos de proyectos de titulación integral?</h6>
+        <ul>
+          <li>Residencia profesional</li>
+          <li>Proyecto de investigación y/o desarrollo tecnológico</li>
+          <li>Proyecto integrador</li>
+          <li> Proyecto productivo</li>
+          <li>Proyecto de innovación tecnológica</li>
+          <li> Proyecto de emprendimiento</li>
+          <li>Proyecto integral de educación dual</li>
+          <li>Estancia, Tesis o Tesina</li>
+          <li>O por la obtención de un Testimonio de Desempeño Satisfactorio o Sobresaliente en el Examen General para
+            el Egreso de Licenciatura (EGEL).</li>
+        </ul>
+        <h6>¿Qué debe hacer el estudiante?</h6>
+        <p>Debe elaborar un proyecto para la titulación integral acorde a su perfil de egreso</p>
+        <h6>¿Cuándo deberá iniciar el proceso de titulación integral?</h6>
+        <p>A partir de que cursó la asignatura de Taller de Investigación II</p>
+
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <div class="contenedor-footer">
+      <div class="content-foo">
+        <h4>Teléfono</h4>
+        <p><i class="fa fa-phone-alt"></i>777 351 8736</p>
+      </div>
+      <div class="content-foo">
+        <h4>Ubicación</h4>
+        <a href=https://goo.gl/maps/xJx7wzLwhi85GiU96 target="_blank"><i class="fa fa-map-marker"></i>Ubicación</a>
+        <p><i class="fa fa-home"></i> Carretera Iliatenco-San Luis Acatlán, Col. El Paraíso, Iliatenco, Gro. C.P.: 41530
+        </p>
+      </div>
+      <div class="content-foo">
+        <h4>Facebook</h4>
+        <a href="https://www.facebook.com/extension.iliatenco" target="_blank"><i
+            class="fab fa-facebook-f "></i>Extensión Académica Iliatenco</a>
+      </div>
+    </div>
+    <h2 class="titulo-final">&copy; TecNM Campus Montaña|Extensión Académica Iliatenco</h2>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

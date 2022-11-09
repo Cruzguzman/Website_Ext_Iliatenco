@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imagenes/color.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <title>Extensión Iliatenco</title>
+</head>
+
+<body>
+  <!--barra  -->
+  <div class="container-fluid  sticky-top " style="background-color: #194A8D;">
+    <nav class="navbar navbar-expand-md navbar-dark navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bolder" href="index.html">TecNM Campus Montaña Extensión Iliatenco</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto text-center fw-bolder">
+            <li class="nav-item font-weigth-bold">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="conocenos.html">Conócenos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="carreras.html">Carreras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="fichas.html">Fichas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="beneficios.html">Beneficios</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Ayuda
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#modal2"
+                    href="staticBackdrop">ACCESOS DIRECTOS</a></li>
+                <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                    href="staticBackdrop">SOPORTE</a></li>
+              </ul>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--fin barra -->
+  <!-- portada -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-warning"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-warning"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-warning"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item ">
+        <img src="imagenes/portada 1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item active">
+        <img src="imagenes/portada3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/portada 2.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--fin  portada -->
+  <!-- inicia modal utilerias-->
+  <!-- Modal -->
+  <div class="modal fade " id="modal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: #194A8D;">
+          <h5 class="modal-title text-white text-center" id="staticBackdropLabel">UTILERÍAS</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- card 1 -->
+          <h5 class="text-center">Accesos directos</h5>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="imagenes/sii.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body bg-light">
+                  <a href="https://siitsm.app/" class="text-decoration-none text-dark" target="_blank"
+                    rel="noopener noreferrer">
+                    SISTEMA INTEGRAL DE INFORMACIÓN
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fin card 1 -->
+          <!-- inicia card 2 -->
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="imagenes/moodle.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body bg-light">
+                  <a href="https://moodle.itsm-tlapa.edu.mx/" class="text-decoration-none text-dark" target="_blank"
+                    rel="noopener noreferrer">
+                    PLATAFORMA DE EDUCACIÓN EN LÍNEA
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fin card 2 -->
+          <!-- inicia card 3 -->
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="imagenes/elibro.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body bg-light">
+                  <a href="https://elibro.net/es/lc/itsmtlapa/login_usuario/?next=/es/lc/itsmtlapa/inicio"
+                    class="text-decoration-none text-dark" target="_blank" rel="noopener noreferrer">
+                    BIBLIOTECA VIRTUAL
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fin card 3 -->
+          <!-- inicia card 4 -->
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="imagenes/med.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body bg-light">
+                  <a href="http://www.itsm-tlapa.edu.mx/master/images/documentos/GUIA_EVALUACIN_DOCENTE_NOV_2020.pdf"
+                    class="text-decoration-none text-dark" target="_blank" rel="noopener noreferrer">
+                    MANUAL DE EVALUACIÓN DOCENTE
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fin card 4 -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- fin modal utilerias-->
+  <!-- inicia modal soporte -->
+  <!-- Modal -->
+  <div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: #194A8D;">
+          <h5 class="modal-title text-white text-center" id="staticBackdropLabel">SOPORTE TÉCNICO</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- card 1 -->
+          <h5 class="text-center">Aplicación web V 1.0</h5>
+
+          <div class="card mb-3 " style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="imagenes/miguel.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body bg-light">
+
+                  <h5 class="card-title">MAQUETACIÓN Y DISEÑO</h5>
+                  <p class="card-text">ING. MIGUEL ÁNGEL CRUZ GUZMÁN</p>
+                  <P class="card-text">CÉDULA PROFESIONAL: 9653412</P>
+                  <p class="card-text"><i class="fa fa-envelope"></i><small class="text-muted">
+                      miguel_cruz@itsm-tlapa.edu.mx</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fin card 1 -->
+          <!-- inicia card 2 -->
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="imagenes/judith.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body bg-light">
+                  <h5 class="card-title">REDACCIÓN Y COLABORACIÓN</h5>
+                  <p class="card-text">JUDITH VALDEZ MARTINEZ</p>
+                  <P class="card-text">MATRICULA:S17122015</P>
+                  <p class="card-text"><i class="fa fa-envelope"></i><small class="text-muted">
+                      s17122015@itsm-tlapa.edu.mx</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- fin card 2 -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- fin modal -->
+  <!-- fin modal soporte -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
